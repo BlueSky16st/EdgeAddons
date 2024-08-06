@@ -6,6 +6,11 @@ function init() {
     icons.forEach(function (icon) {
       icon.remove();
     });
+
+    var iconV2s = container.querySelectorAll("div[role='comment'] .bili-danmaku-x-high-icon");
+    iconV2s.forEach(function (icon) {
+      icon.remove();
+    });
   });
 
   observer.observe(container, {
