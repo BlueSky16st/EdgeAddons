@@ -1,21 +1,31 @@
 {
   "name": "__MSG_extName__",
-  "version": "1.1",
+  "version": "2.0",
   "manifest_version": 3,
-  "default_locale": "zh_CN",
-
-  "description": "在B站看剧的时候突然就出现一个点赞的弹幕飘过, 影响了你的观影体验? 那就试试这个吧!(把弹幕以最原始的形态呈现, 不要花里胡哨!!!)",
-  "action": {
-    "default_icon": "imgs/plus48.png"
-  },
-
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
   "author": "Hsin",
-
-  "permissions": ["storage", "activeTab"],
+  "icons": {
+    "16": "imgs/icon16.png",
+    "32": "imgs/icon32.png",
+    "48": "imgs/icon48.png",
+    "128": "imgs/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "imgs/icon16.png",
+      "32": "imgs/icon32.png",
+      "48": "imgs/icon48.png",
+      "128": "imgs/icon128.png"
+    },
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["https://*.bilibili.com/*"],
-      "js": ["src/rm.js"]
+      "css": ["src/rm.css"],
+      "js": ["src/danmaku-filter.js", "src/rm.js"]
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "extName": { "message": "你讚你的，我看我的｜B站按讚彈幕篩選器" },
+  "extDescription": { "message": "在不傷害任何大拇指的前提下，本擴充功能會把它們妥善藏好；如果你突然想念它們，也可以只看它們。" },
+  "popupTitle": { "message": "你讚你的，我看我的" },
+  "popupSubtitle": { "message": "設定會自動儲存並套用到 B 站頁面" },
+  "hideThumbIconTitle": { "message": "隱藏大拇指圖示" },
+  "hideThumbIconDescription": { "message": "開啟後將從彈幕中移除圖示" },
+  "onlyThumbDanmakuTitle": { "message": "只顯示大拇指彈幕" },
+  "onlyThumbDanmakuDescription": { "message": "隱藏沒有大拇指標記的彈幕" },
+  "languageLabel": { "message": "介面語言" },
+  "languageAuto": { "message": "跟隨系統" },
+  "languageZhCN": { "message": "简体中文" },
+  "languageZhTW": { "message": "繁體中文" },
+  "languageEn": { "message": "English" },
+  "settingsAriaLabel": { "message": "彈幕設定" },
+  "loadError": { "message": "設定讀取失敗，目前使用預設值。" },
+  "saveError": { "message": "設定儲存失敗，請重試。" },
+  "languageLoadError": { "message": "語言資源載入失敗，已使用英文。" }
+}

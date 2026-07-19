@@ -1,0 +1,19 @@
+{
+  "extName": { "message": "You Like, I Watch | Bilibili Like Danmaku Filter" },
+  "extDescription": { "message": "Without harming a single thumb, this extension tucks them safely away. If you suddenly miss them, you can watch only them instead." },
+  "popupTitle": { "message": "You Like, I Watch" },
+  "popupSubtitle": { "message": "Settings are saved automatically and applied to Bilibili pages" },
+  "hideThumbIconTitle": { "message": "Hide thumb icons" },
+  "hideThumbIconDescription": { "message": "Remove thumb icons from danmaku" },
+  "onlyThumbDanmakuTitle": { "message": "Show only thumb danmaku" },
+  "onlyThumbDanmakuDescription": { "message": "Hide danmaku without a thumb marker" },
+  "languageLabel": { "message": "Language" },
+  "languageAuto": { "message": "Use system language" },
+  "languageZhCN": { "message": "简体中文" },
+  "languageZhTW": { "message": "繁體中文" },
+  "languageEn": { "message": "English" },
+  "settingsAriaLabel": { "message": "Danmaku settings" },
+  "loadError": { "message": "Could not load settings. Defaults are being used." },
+  "saveError": { "message": "Could not save the setting. Please try again." },
+  "languageLoadError": { "message": "Could not load the language resource. English is being used." }
+}

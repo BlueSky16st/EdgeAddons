@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="panel">
+      <header class="panel__header">
+        <img src="../imgs/icon32.png" width="32" height="32" alt="">
+        <div>
+          <h1 data-i18n="popupTitle"></h1>
+          <p data-i18n="popupSubtitle"></p>
+        </div>
+      </header>
+
+      <label class="language-picker" for="ui-language">
+        <span data-i18n="languageLabel"></span>
+        <select id="ui-language">
+          <option value="auto" data-i18n="languageAuto"></option>
+          <option value="zh_CN" data-i18n="languageZhCN"></option>
+          <option value="zh_TW" data-i18n="languageZhTW"></option>
+          <option value="en" data-i18n="languageEn"></option>
+        </select>
+      </label>
+
+      <section class="settings" data-i18n-aria-label="settingsAriaLabel">
+        <label class="setting">
+          <span class="setting__copy">
+            <strong data-i18n="hideThumbIconTitle"></strong>
+            <small data-i18n="hideThumbIconDescription"></small>
+          </span>
+          <span class="switch">
+            <input id="hide-thumb-icon" type="checkbox">
+            <span class="switch__track" aria-hidden="true"></span>
+          </span>
+        </label>
+
+        <label class="setting">
+          <span class="setting__copy">
+            <strong data-i18n="onlyThumbDanmakuTitle"></strong>
+            <small data-i18n="onlyThumbDanmakuDescription"></small>
+          </span>
+          <span class="switch">
+            <input id="only-thumb-danmaku" type="checkbox">
+            <span class="switch__track" aria-hidden="true"></span>
+          </span>
+        </label>
+      </section>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </main>
+
+    <script src="../src/danmaku-filter.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
